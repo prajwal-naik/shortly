@@ -9,7 +9,7 @@ function Intro() {
                     <div className={styles.screamer}>
                         <p>More than just<br/>shorter links</p>
                     </div>
-                    <p className={styles.description}>Build your brand's recognition and get detailed<br/>insights on how your links are performing.</p>
+                    <p className={styles.description}>Build your brand&apos;s recognition and get detailed<br/>insights on how your links are performing.</p>
                     <div className={styles.viewCode}>
                         Get started
                     </div>
