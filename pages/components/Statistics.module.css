@@ -1,0 +1,101 @@
+.statistics{
+    padding-block-start: 100px;
+    background-color: #f0f1f6
+    ;
+}
+
+.demoTitle{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.demoTitleDesc{
+    color:hsl(257, 7%, 63%);
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.demoTitleHead{
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(257, 27%, 26%);
+}
+
+.statisticsDivContainer{
+    max-width: 64rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+    padding-block: 50px;
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+.blueLine{
+    position: absolute;
+    height: 5px;
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: hsl(180, 66%, 49%); */
+}
+
+.blueLineInner{
+    background-color:hsl(180, 66%, 49%) ;
+    height: 5px;
+    width: 100%;
+}
+
+.statisticsSection{
+    background-color: white;
+    padding: 30px;
+    border-radius: 7px;
+    height:max-content;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    padding-top: 50px;
+}
+
+.firstChild{
+    margin-top: 50px;
+}
+
+.secondChild{
+    margin-top: 100px;
+}
+
+.statisticsSectionIcon{
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 99999px;
+    /* width:max-content; */
+    padding: 15px;
+    position: absolute;
+    top: -37px
+}
+
+.statisticsSectionIcon > img{
+    height: 30px;
+    object-fit: contain;
+}
+
+.statisticsSectionTitle{
+    color: hsl(257, 27%, 26%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+

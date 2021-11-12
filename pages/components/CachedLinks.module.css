@@ -1,0 +1,80 @@
+.cachedLinks{
+    background-color: #f0f1f6;
+}
+
+
+
+.innerContainer{
+    max-width: 64rem;
+    margin-inline: auto;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cachedLinksContainer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    padding-inline: 40px;
+    /* margin-block: 30px; */
+    
+    /* opacity: 1; */
+    
+}
+
+.targetLink, .shortenedLink{
+    color: #3b3054;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.targetLink{
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shortenedLink{
+    color:hsl(180, 66%, 49%);
+}
+
+
+
+.shortenedLinkGroup{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    border-radius: 10px;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 300ms;
+    padding: 10px;
+    padding-inline: 20px;
+}
+
+
+
+.copyButton:hover{
+    background-color: hsl(0, 87%, 67%);
+    color: white;
+}
