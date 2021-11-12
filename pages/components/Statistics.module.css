@@ -1,7 +1,7 @@
 .statistics{
     padding-block-start: 100px;
-    background-color: #f0f1f6
-    ;
+    background-color: #f0f1f6;
+    /* border: 2px solid black; */
 }
 
 .demoTitle{
@@ -93,6 +93,50 @@
     color: hsl(257, 27%, 26%);
     font-size: 20px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 425px){
+    .statistics{
+        padding-inline: 20px;
+    }
+
+    .statisticsDivContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-block: 0;
+        gap : 100px;
+        margin-block-start: 70px;
+    }
+    
+    .blueLine{
+        position: absolute;
+        height: 100%;
+        /* top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0; */
+        width: 5px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        /* background-color: hsl(180, 66%, 49%); */
+    }
+    
+    .blueLineInner{
+        background-color:hsl(180, 66%, 49%) ;
+        height: 100%;
+        width: 100%;
+    }
+
+    .firstChild{
+        margin-top: 0 ;
+    }
+    
+    .secondChild{
+        margin-top: 0;
+    }
 }
 
 

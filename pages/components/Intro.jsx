@@ -4,6 +4,9 @@ import Image from "next/image"
 function Intro() {
     return (
         <div className={styles.intro}>
+            <div className = {styles.mobileImage}>
+                <img src = "/images/illustration-working.svg" />
+            </div>
             <div className={styles.introContainer}>
                 <div className={styles.infoDiv}>
                     <div className={styles.screamer}>

@@ -1,0 +1,72 @@
+.navSection{
+    /* border: 2px solid black; */
+    margin-inline: 20px;
+    border-radius: 20px;
+    background-color: hsl(257, 27%, 26%);
+    padding-block: 40px;
+    padding-inline: 20px;
+    animation: fadein 0.5s linear 1 forwards;
+    position: fixed;
+    top: 100px;
+    font-size: 20px;
+    /* width: 90vw; */
+    right: 0;
+    left: 0;
+    z-index: 999;
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 1);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+.navSectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.headerOptions{
+    color: #c0c0c0;
+    font-weight: 500;
+    /* border: 2px solid blue */
+}
+
+.headerOptions > p{
+    cursor: pointer;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.headerOptions >p:hover{
+    color: white;
+}
+
+.viewCode{
+    width: 70%;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 100px;
+    /* height: 35px; */
+    padding-block: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 300ms;
+    border: 2px solid hsl(180, 66%, 49%);
+}
+
+.viewCode:hover{
+    background-color: hsl(0, 87%, 67%);
+    color: white;
+    border: 2px solid black;
+}

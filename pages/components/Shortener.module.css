@@ -67,7 +67,7 @@
 
 .urlInput > input::-webkit-input-placeholder {
     /* color: blue; */
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .urlInput > input:focus{
@@ -92,4 +92,54 @@
 .shortenButton:hover{
     background-color: hsl(0, 87%, 67%);
     color: white;
+}
+
+@media screen and (max-width: 425px){
+
+    /* .slideShow{
+        padding-inline: 20px;
+    } */
+
+    .slideShowContainer{
+        /* max-width: 64rem; */
+        /* width: 100%; */
+        margin-inline: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url('/images/bg-boost-desktop.svg');
+        background-color: #3b3054;
+        background-size: cover;
+        background-repeat: no-repeat;  
+        /* padding: 40px; */
+        /* padding-inline: 50px; */
+        padding: 20px;
+        gap: 10px;
+        z-index: 999;
+    }
+
+    .urlInput{
+        /* height: 50px; */
+        width: 100%;
+        /* padding-inline: 20px;
+        padding-block: 20px; */
+        border: 0;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .shortenButton{
+        
+        width: 100%;
+        border-radius: 10px;
+        background-color: hsl(180, 66%, 49%);
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all;
+        padding-block: 15px;
+        transition-duration: 300ms;
+    }
 }

@@ -73,8 +73,9 @@
 }
 
 .headerOptions{
-    color: hsl(0, 0%, 63%);
+    color: #a1a1a1;
     font-weight: 700;
+    /* border: 2px solid blue */
 }
 
 .headerOptions > p{
@@ -85,4 +86,31 @@
 
 .headerOptions >p:hover{
     color: black;
+}
+
+
+@media screen and (max-width: 425px){
+    .headerContainer{
+        max-width: 100%;
+        padding-inline: 20px;
+        /* border: 2px solid black; */
+    }
+
+    .headerLeft > .headerOptions{
+        display: none;
+    }
+
+    .headerRight{
+        display: none;
+    }
+
+    .ham{
+        cursor: pointer;
+    }
+
+    .logo{
+        color: hsl(260, 8%, 14%);
+        font-size: 40px;
+        font-weight: 700;
+    }
 }
