@@ -159,7 +159,7 @@
     }
 
     .mobileImage > img{
-        margin-left: 10%;
+        /* margin-left: 10%; */
         width: 100%;
         object-fit: contain;
     }
