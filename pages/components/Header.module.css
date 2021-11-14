@@ -4,6 +4,11 @@
     /* border: 2px solid black */
 }
 
+.ham{
+    display: none;
+    cursor: pointer;
+}
+
 .headerContainer{
     max-width: 64rem;
     margin-inline: auto;
@@ -105,6 +110,7 @@
     }
 
     .ham{
+        display: block;
         cursor: pointer;
     }
 

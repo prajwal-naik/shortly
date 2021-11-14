@@ -33,7 +33,7 @@ function Header() {
                         <p>Sign Up</p>
                     </div>
                 </div>
-                <div className = "ham" onClick = {() => {
+                <div className = {styles.ham} onClick = {() => {
                         setnav(!nav);
                     }}
                 >
